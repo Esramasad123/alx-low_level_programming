@@ -1,6 +1,2 @@
 #!/bin/bash
- #include <studio.h>
-int main(){
-pringf("hello world");
-return 0;
-}
+gcc $CFILE -E -o c
